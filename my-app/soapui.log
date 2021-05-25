@@ -1,0 +1,17 @@
+2021-05-25 10:43:34,359 WARN  [SoapUI] Missing folder [C:\Users\LakshmiChaitanyaBola\Desktop\HandsonProject\my-app\ext] for external libraries
+2021-05-25 10:43:34,685 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\LakshmiChaitanyaBola\soapui-settings.xml]
+2021-05-25 10:43:35,818 INFO  [WsdlProject] Loaded project from [file:/C:/Users/LakshmiChaitanyaBola/Desktop/HandsonProject/my-app/SoapuiProject-readyapi-project.xml]
+2021-05-25 10:43:36,134 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2021-05-25 10:43:36,135 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Existence Match]
+2021-05-25 10:43:36,144 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Count]
+2021-05-25 10:43:36,145 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath RegEx Match]
+2021-05-25 10:43:36,607 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SoapuiProject]
+2021-05-25 10:43:36,609 INFO  [SoapUITestCaseRunner] Running Project [SoapuiProject], runType = SEQUENTIAL
+2021-05-25 10:43:36,643 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Test Case 1]
+2021-05-25 10:43:36,677 INFO  [SoapUITestCaseRunner] running step [Data Source]
+2021-05-25 10:43:36,686 INFO  [SoapUITestCaseRunner] running step [Create_Pet Request]
+2021-05-25 10:43:38,036 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-05-25 10:43:38,036 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2021-05-25 10:43:38,102 ERROR [SoapUITestCaseRunner] Property Transfer failed, exporting to [C:\Users\LakshmiChaitanyaBola\Desktop\HandsonProject\my-app\target/surefire-reports\Test_Suite_1-Test_Case_1-Property_Transfer-0-FAILED.txt]
+2021-05-25 10:43:38,105 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Test Case 1], time taken: 1206ms, status: FAILED
+2021-05-25 10:43:38,109 INFO  [SoapUITestCaseRunner] Project [SoapuiProject] finished with status [FAILED] in 1492ms

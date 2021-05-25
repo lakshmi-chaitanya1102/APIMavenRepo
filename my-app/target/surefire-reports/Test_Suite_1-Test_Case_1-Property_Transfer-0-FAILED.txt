@@ -1,0 +1,15 @@
+Status: FAILED
+Time Taken: 61
+Size: 0
+Timestamp: Tue May 25 10:43:38 IST 2021
+TestStep: Property Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: error: Unexpected element: CDATA
+
+----------------- Messages ------------------------------
+Error performing transfer [Pet_ID] - error: Unexpected element: CDATA
+----------------------------------------------------
+Pet_ID transferred [[error: Unexpected element: CDATA]] from [Create_Pet Request.Response] to [GetPetRequest.petId]
+------------ source path -------------
+$['id']
+------------ target path -------------
+
